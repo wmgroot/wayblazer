@@ -1,0 +1,8 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "Data type definitions for the wayblazer project.",
+  "main": "dataTypes.js",
+  "author": "Matt Groot",
+  "license": "ISC"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "wayblazer",
+  "version": "1.0.0",
+  "description": "REST API and importer tool.",
+  "main": "index.js",
+  "repository": "https://github.com/wmgroot/wayblazer",
+  "author": "Matt Groot",
+  "license": "ISC",
+  "scripts": {
+    "api": "node api/server.js",
+    "build": "yarn; cd api && yarn && cd ../data && yarn && cd ../importer && yarn",
+    "importer": "node importer/importer.js",
+    "test": "node_modules/.bin/jest --verbose"
+  },
+  "devDependencies": {
+    "frisby": "^2.0.8",
+    "jest": "^21.2.1"
+  }
+}
